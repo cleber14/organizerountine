@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrganizeRountine</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header><img id="orountineLogo" src="images/welcome_little_one_-removebg-preview.png" alt="logomarca"></header>
+    
+    <main>
+    <!--Div Task Added-->
+    <div class="containerAddedTask">
+        <!--Checkbox-->
+        <div class="checkbox">
+            <ion-icon class="ellipseOutline" name="ellipse-outline"></ion-icon>
+            <ion-icon class="checkmarkCircleOutline" name="checkmark-circle-outline"></ion-icon>
+        </div>
+        <!--End Checkbox-->
+
+        <!--Task Name-->
+        <p class="textNameAddedTask"></p>
+        <!--End Task Name-->
+
+        <!--Play Task-->
+        <ion-icon class="caretForwardCircleOutline" name="caret-forward-circle-outline"></ion-icon>
+        <!--End Play Task-->
+    </div>
+    <!--End Div Task Added-->
+    
+    <!--Div Task Added-->
+    <div class="containerAddedTask">
+        <!--Checkbox-->
+        <div class="checkbox">
+            <ion-icon class="ellipseOutline" name="ellipse-outline"></ion-icon>
+            <ion-icon class="checkmarkCircleOutline" name="checkmark-circle-outline"></ion-icon>
+        </div>
+        <!--End Checkbox-->
+
+        <!--Task Name-->
+        <p class="textNameAddedTask"></p>
+        <!--End Task Name-->
+
+        <!--Play Task-->
+        <ion-icon class="caretForwardCircleOutline" name="caret-forward-circle-outline"></ion-icon>
+        <!--End Play Task-->
+    </div>
+    <!--End Div Task Added-->
+    </main>
+
+    <!--Add Task-->
+    <ion-icon class="addCircle" name="add-circle"></ion-icon>
+        <form class="containerAddEvent" action="dbTasks.php" method="POST">
+            <input class="textTask" name="taskName" type="text" placeholder="Please enter the task name">
+            
+            <input class="submit" type="submit" value="Confirm">
+        </form>
+    <!--End Add Task-->
+    
+
+    <!--Footer Elements Icons-->
+    <div class="footerElementsIcons">
+        <!--Checkbox Icon Footer-->
+        <ion-icon class="checkbox ionicon" name="checkbox"></ion-icon>
+        <!--End Checkbox Icon Footer-->
+
+        <!--Checkbox Icon Footer-->
+        <ion-icon class="calendar ionicon" name="calendar"></ion-icon>
+        <!--End Checkbox Icon Footer-->
+
+        <!--Checkbox Icon Footer-->
+        <ion-icon class="stopwatch ionicon" name="stopwatch"></ion-icon>
+        <!--End Checkbox Icon Footer-->
+
+        <!--Checkbox Icon Footer-->
+        <ion-icon class="analytics ionicon" name="analytics"></ion-icon>
+        <!--End Checkbox Icon Footer-->
+
+        <!--Checkbox Icon Footer-->
+        <ion-icon class="settings ionicon" name="settings"></ion-icon>
+        <!--End Checkbox Icon Footer-->
+    </div>
+
+    <!--PHPCODEHERE///////////////////////////-->
+
+    <!--ENDPHPCODE///////////////////////////-->
+
+    <!--End Footer Elements Icons-->
+    <script src="script/script.js"></script>
+    <!--Icons Script-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+<!--
+                                     __====  _-====__
+                            _--^^^#####//      \\#####^^^--_
+                         _-^##########// (    ) \\##########^-_
+                        -############//  |\^^/|  \\############-
+                      _/############//   (@::@)   \\############\_
+                     /#############((     \\//     ))#############\
+                    -###############\\    (oo)    //###############-
+                   -#################\\  / "" \  //#################-
+                  -###################\\/  ()  \//###################-
+                 _#/|##########/\######(   /\   )######/\##########|\#_
+                 |/ |#/\#/\#/\/  \#\#\|  |  | |  |/#\#/\  \/\#/\#/\| \|
+
+                                ▓█████▄  ▄▄▄       ██▀███  ▒███████▒▓█████  ███▄█ 
+                ▒██▀ ██▌▒████▄    ▓██ ▒ ██▒▒ ▒ ▒ ▄▀░▓█   ▀  ██ ▀█   █ 
+                ░██   █▌▒██  ▀█▄  ▓██ ░▄█ ▒░ ▒ ▄▀▒░ ▒███   ▓██  ▀█ ██▒
+                ░▓█▄   ▌░██▄▄▄▄██ ▒██▀▀█▄    ▄▀▒   ░▒▓█  ▄ ▓██▒  ▐▌██▒
+                ░▒████▓  ▓█   ▓██▒░██▓ ▒██▒▒███████▒░▒████▒▒██░   ▓██░
+                ▒▒▓  ▒  ▒▒   ▓▒█░░ ▒▓ ░▒▓░░▒▒ ▓░▒░▒░░ ▒░ ░░ ▒░   ▒ ▒ 
+                ░ ▒  ▒   ▒   ▒▒ ░  ░▒ ░ ▒░░░▒ ▒ ░ ▒ ░ ░  ░░ ░░   ░ ▒░
+                ░ ░  ░   ░   ▒     ░░   ░ ░ ░ ░ ░ ░   ░      ░   ░ ░ 
+                        ░                          
+-->
+</html>
